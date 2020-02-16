@@ -15,7 +15,6 @@ body{
     width: 185px;
     height: 217px;
     background-color: grey;
-
 }
 
 .calculator-body{
@@ -79,4 +78,88 @@ p{
 
 h2{
     margin-right: 700px;
+}
+
+/* Changed Min-Width to Max-Width */
+
+@media (max-width: 480px){
+
+    .body-main{
+        display: block;
+        width: 480px;
+        margin: 0px auto;
+    }
+
+    .main-calculator{
+        display: flex;
+        flex-wrap: wrap;
+        width: 185px;
+        height: 217px;
+        background-color: grey;
+        margin: 20px 0 0 80px;
+    }
+
+    .button-calculator{
+        width: 35px;
+        height: 30px;
+        background-color: #e65c00;
+        border-style: solid;
+        margin: 2px;
+    }
+
+    .main-calendar{
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+        background-color: grey;
+        padding: 0 0 0 10px;
+        margin: 0 0 0 30px;
+    }
+
+    .calendar-box{
+        width: 25px;
+        height: 20px;
+        border-style: solid;
+        margin: 5px;
+    
+    }
+
+    .list-body{
+        width: 300px;
+        margin: 50px 0 20px 30px;
+    }
+
+    p{
+        font-size: 12px;
+        margin: auto !important;
+        padding: 2px;
+    }
+
+}
+
+@media (max-width: 768px){
+
+    .main-calendar{
+        display: flex;
+        flex-wrap: wrap;
+        width: 380px;
+        background-color: grey;
+        padding: 0 0 0 10px;
+        margin: 0 0 0 30px;
+    }
+
+    .calendar-box{
+        width: 35px;
+        height: 30px;
+        border-style: solid;
+        margin: 5px;
+    
+    }
+
+    p{
+        font-size: 12px;
+        margin: auto !important;
+        padding: 2px;
+    }
+
 }
