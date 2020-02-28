@@ -1,0 +1,123 @@
+.body-main{
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.header-main{
+    width: 500px;
+    height: 200px;
+    margin: auto;
+}
+
+h1{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 2.625em;
+}
+
+.form-main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 380px;
+    height: 274px;
+    margin: 0 0 0 30px;
+}
+
+input[type=text] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+  label{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+  input[type=submit] {
+    width: 25%;
+    background-color: #666666;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  input[type=reset] {
+    width: 25%;
+    background-color: #666666;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  @media (max-width: 480px){
+
+    .form-main{
+        display: flex;
+        flex-wrap: wrap;
+        width: 380px;
+        height: 274px;
+        margin: 0 0 0 60px;
+    }
+
+    .header-main {
+        width: 434px;
+        height: 200px;
+        margin: auto;
+    }
+    
+    input[type=text] {
+        width: 90%;
+        padding: 12px 20px;
+        margin: 8px 8px;
+        box-sizing: border-box;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      }
+    
+      label{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      }
+    
+      input[type=submit] {
+        width: 35%;
+        background-color: #666666;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+      }
+    
+      input[type=reset] {
+        width: 35%;
+        background-color: #666666;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+      }
+
+  }
