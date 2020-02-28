@@ -1,0 +1,171 @@
+body{
+    margin: 0px;
+}
+
+.logo-main{
+    font-family: 'Sofia';font-size: 22px;
+    text-align: center;
+    margin: auto;
+}
+
+nav{
+    max-width: 570px;
+    margin: 70px auto;
+}
+
+nav > a{
+    margin: auto;
+}
+
+nav > .text-nav{
+    font-family: 'Poller One';font-size: 22px;
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 10px 0 10px
+}
+
+.image-background{
+    max-width: 100%;
+    height: 40em;
+    background-image: url(https://image.shutterstock.com/z/stock-photo-side-view-portrait-of-thinking-stylish-young-man-looking-away-538654906.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.text-box{
+    width: 200px;
+    margin: 10% 30% 0 0;
+    float: right;
+}
+
+.first-box{
+    width: 490px;
+    background: #fff;
+    color: #000;
+    display: inline-block;
+    font-family: 'Poller One';font-size: 22px;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0 0 18px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.second-box{
+    width: 490px;
+    background: #252525;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    margin: 7px 0;
+    text-align: center;
+}
+
+.third-box{
+    width: 490px;
+    background: #252525;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    margin: 7px 0;
+    text-align: center;
+}
+
+.fourth-box{
+    width: 490px;
+    background: #252525;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    margin: 7px 0;
+    text-align: center;
+}
+
+button{
+    background: #a30b0b;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px 0 0;
+    padding: 26px 27px 22px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 0px;
+    cursor: pointer;
+}
+
+.image-main{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px auto;
+}
+
+.first-image{
+    width: 296px;
+    height: 238px;
+    border-style: solid;
+    background-image: url(https://nextluxury.com/wp-content/uploads/male-grey-beard-style-ideas.jpg);
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+    font-family: 'Poller One';font-size: 22px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.second-image{
+    width: 296px;
+    height: 238px;
+    border-style: solid;
+    background-image: url(https://nextluxury.com/wp-content/uploads/masculine-grey-beard-styles-for-guys.jpg);
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+    font-family: 'Poller One';font-size: 22px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.third-image{
+    width: 296px;
+    height: 238px;
+    border-style: solid;
+    background-image: url(https://i.pinimg.com/originals/12/09/f8/1209f84b87a0f97e919982dd4accbbb7.jpg);
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+    font-family: 'Poller One';font-size: 22px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.first-image > a{
+    color: white;
+    text-decoration: none;
+}
+
+.second-image > a{
+    color: white;
+    text-decoration: none;
+}
+
+.third-image > a{
+    color: white;
+    text-decoration: none;
+}
+
+.main-footer{
+    max-width: 100%;
+    height: 122px;
+    background-color: black;
+}

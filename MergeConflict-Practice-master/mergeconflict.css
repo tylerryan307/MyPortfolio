@@ -1,0 +1,27 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    margin: auto;
+}
+
+.square-one{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: chartreuse;
+}
+
+.square-two{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: cyan;
+}
+
+.square-three{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: darkmagenta;
+}
