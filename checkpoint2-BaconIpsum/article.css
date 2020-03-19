@@ -1,0 +1,164 @@
+body{
+    margin: 0px;
+}
+
+.top-header{
+    height: 400px;
+    margin: auto;
+    background-color: #0197F6;
+    background-size: cover;
+}
+
+.title{
+
+}
+
+nav{
+    text-align: center;
+}
+
+.nav-link{
+    margin: auto;
+    font-family: 'Black Han Sans';font-size: 16px;
+    color: rgb(255, 255, 255, 0.5);
+}
+
+.main-body{
+    display: flex;
+    flex-wrap: wrap;
+    width: 665px;
+    margin: auto;
+}
+
+.service-one{
+    width: 13.000em;
+    border-top-style: solid;
+    border-width: 25px;
+    border-color: blue;
+    margin: 30px 10px 0 0;
+}
+
+.service-two{
+    width: 13.000em;
+    border-top-style: solid;
+    border-width: 25px;
+    border-color: orange;
+    margin: 30px 10px 0 10px;
+}
+
+.service-three{
+    width: 13.000em;
+    border-top-style: solid;
+    border-width: 25px;
+    border-color: teal;
+    margin: 30px 0 0 10px;
+}
+
+h1{
+    font-family: 'Black Han Sans';font-size: 72px;
+    text-align: center;
+    color: white;
+}
+
+h2{
+    font-family: 'Black Han Sans';font-size: 28px;
+    margin: 20px 0 0 0;
+}
+
+p{
+    font-family: 'Asap Condensed';font-size: 14px;
+}
+
+.article-one{
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    border-top-style: solid;
+    border-width: 25px;
+    border-color: blue;
+    margin: 50px 40px 0 100px;
+}
+
+.article-two{
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    border-top-style: solid;
+    border-width: 25px;
+    border-color: orange;
+    margin: 50px 40px 0 100px;
+}
+
+.article-three{
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    border-top-style: solid;
+    border-width: 25px;
+    border-color: teal;
+    margin: 50px 40px 0 100px;
+}
+
+.article-image{
+    width: 6.875em;
+    height: 6.875em;
+    margin: 20px 30px 0 0;
+}
+
+.article-text{
+    width: 500px;
+    width: 20px 0 0 0;
+}
+
+.button {
+    background-color: #D7263D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 30px 0 30px 30px;
+  }
+
+  .page-box{
+    width: 850px;
+    margin: 30px auto;
+  }
+
+  .top-header1{
+    height: 400px;
+    margin: auto;
+    background-color: blue;
+    background-size: cover;
+  }
+
+  .top-header2{
+    height: 400px;
+    margin: auto;
+    background-color: orange;
+    background-size: cover;
+  }
+
+  .top-header3{
+    height: 400px;
+    margin: auto;
+    background-color: teal;
+    background-size: cover;
+  }
+
+  .text-image{
+    width: 400px;
+    height: 300px;
+    float: left;
+    margin: 0 30px 30px 0;
+  }
+
+  footer{
+    height: 200px;
+    margin: auto;
+    background-color: #68C5DB;
+    background-size: cover;
+}

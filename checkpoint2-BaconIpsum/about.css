@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+}
+
+.top-header{
+    height: 400px;
+    margin: auto;
+    background-color: #0197F6;
+    background-size: cover;
+}
+
+.title{
+
+}
+
+nav{
+    text-align: center;
+}
+
+.nav-link{
+    margin: auto;
+    font-family: 'Black Han Sans';font-size: 16px;
+    color: rgb(255, 255, 255, 0.5);
+}
+
+h1{
+    font-family: 'Black Han Sans';font-size: 72px;
+    text-align: center;
+    color: white;
+}
+
+h2{
+    font-family: 'Black Han Sans';font-size: 28px;
+}
+
+p{
+    font-family: 'Asap Condensed';font-size: 14px;
+}
+
+.video{
+    margin: 40px 0 0 25%;
+}
